@@ -1,8 +1,8 @@
 import React from "react"
 import { useCallback, useEffect, useState } from "react"
-import { HangmanDrawing } from "../COMPONENTS/HangManDrawings.tsx"
-import { HangmanWord } from "../COMPONENTS/HangManWords.tsx"
-import { Keyboard } from "../COMPONENTS/KeyBoard.tsx"
+import { HangmanDrawing } from "./COMPONENTS/HangManDrawings.tsx"
+import { HangmanWord } from "./COMPONENTS/HangManWords.tsx"
+import { Keyboard } from "./COMPONENTS/KeyBoard.tsx"
 import words from "./wordList.json"
 
 function getWord() {
