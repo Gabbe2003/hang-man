@@ -89,6 +89,8 @@ const HEAD = (
   const BODY_PARTS = [HEAD, BODY, RIGHT_ARM, LEFT_ARM, RIGHT_LEG, LEFT_LEG]
   //We styiled the body of the hangman and made it unvisible to the user, and we display one part with every wrong guess.
 
+
+  
   type HangmanDrawingProps = {
     numberOfGuesses: number
   } // we create a component called HangmanDrawingProps with type number: 'it only acceptes number'
